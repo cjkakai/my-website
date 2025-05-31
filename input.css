@@ -1,0 +1,24 @@
+@import "tailwindcss";
+.section1 {
+    background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2dyYW1tZXJ8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: ;
+}
+/* .section1::before {
+  content: "";
+  position: relative;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+} */
+.custom-bullet::marker {
+    content: "📈";
+  }
+.bullet-code::marker {
+    content: '💻 ';
+}
+.bullet-model::marker {
+    content: '📊 ';
+  }
